@@ -15,7 +15,7 @@
     <div class="form">
         
     <form>
-        <div>
+        <div class="division">
         <span>1. What is your year of education?</span><br><br>
         <section class="answers">
         <input type="radio" name="radio1" id="1" required>
@@ -41,7 +41,7 @@
 
         <span>3. What are some programming languages you've previously learned?</span><br><br>
         <section class="answers">
-        <span>If none, tick others</span><br><br>
+        <span>Select all that apply; If none, tick others</span><br><br>
         <input type="checkbox" id="python">
         <label for="python">Python</label><br>
         <input type="checkbox" id="Html">
@@ -60,9 +60,11 @@
             <label>100%</label><br><br><br>
         </section>
         </div>
-        <div>
+
+        <div class="division">
         <span>5. What are some programming languages you're interested in learning?</span><br><br>
         <section class="answers">
+        <span>Select all that apply: </span><br><br>
         <input type="checkbox" id="python">
         <label for="python">Python</label><br>
         <input type="checkbox" id="Html">
@@ -72,10 +74,38 @@
         <input type="checkbox" id="Others">
         <label for="Others">Others (Please specify):</label><br><br>
         <input class="tb" type="text" required placeholder="Eg.: Javascript, Java" size="30" minlength="4">
+        </section><br>
+        <span>6. Which of these media do you prefer for learning coding outside of university?</span>
+        <section class="answers"><br>
+            <span>Select all that apply: </span><br><br>
+            <input type="checkbox" id="vid">
+            <label for="vid">Online Videos</label><br>
+            <input type="checkbox" id="web">
+            <label for="web">Online Courses Websites</label><br>
+            <input type="checkbox" id="tb">
+            <label for="tb">Textbooks</label><br>
+            <input type="checkbox" id="Others1">
+            <label for="Others1">Others (Please specify):</label><br><br>
+            <input class="tb" type="text" required placeholder="Eg.: IRL Courses" size="30" minlength="4">
+        </section><br>
+        <span>7. Are the materials from your university lectures sufficient for learning everything, or do you need to learn more materials from other sources?</span>
+
+        <section class="answers">
+            <br>
+            <input type="radio" name="radio1" id="yes1" required>
+            <label for="yes1" >Yes</label><br>
+            <input type="radio" name="radio1" id="no1" required>
+            <label for="no1" >No</label><br>
         </section>
         </div>
-
+        <br><br><br>
+        
         <hr class="hr">
+
+        <h1 class="signup">Please complete your details</h1>
+        <table>
+
+        </table>
         
     </form>
 
