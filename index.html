@@ -2,20 +2,84 @@
 <html lang="en">
 <head>
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HCI ASSIGNMENT-02</title>
 </head>
 <body>
-    <div class="title">
+    <div class="header">
     <h1>Computer Science Survey</h1>
     </div>
+    
+    <div class="form">
+        
     <form>
+        <div>
+        <span>1. What is your year of education?</span><br><br>
+        <section class="answers">
+        <input type="radio" name="radio1" id="1" required>
+        <label for="1" >1st</label><br>
+        <input type="radio" name="radio1" id="2" required>
+        <label for="2" >2nd</label><br>
+        <input type="radio" name="radio1" id="3" required>
+        <label for="3" >3rd</label><br>
+        <input type="radio" name="radio1" id="4" required>
+        <label for="4" >4th</label><br>
+        <input type="radio" name="radio1" id="pg" required>
+        <label for="pg" >Postgraduate</label>
+        <br><br><br>
+        </section>
+
+        <span>2. Are you enjoying CS so far?</span><br><br>
+        <section class="answers">
+        <input type="radio" name="radio1" id="yes" required>
+        <label for="yes" >Yes</label><br>
+        <input type="radio" name="radio1" id="no" required>
+        <label for="no" >No</label><br><br><br>
+        </section>
+
+        <span>3. What are some programming languages you've previously learned?</span><br><br>
+        <section class="answers">
+        <span>If none, tick others</span><br><br>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="Html">
+        <label for="Html">HTML</label><br>
+        <input type="checkbox" id="Css">
+        <label for="Css">CSS</label><br>
+        <input type="checkbox" id="Others">
+        <label for="Others">Others (Please specify):</label><br><br>
+        <input class="tb" type="text" required placeholder="Eg.: Javascript, Java" size="30" minlength="4"><br><br><br>
+        </section>
+
+        <span>4. How confident are you with the programming languages you've previously learned?</span>
+        <section class="answers">
+            <label>0%</label>
+            <input type="range" min="0" max="100" step="12.5">
+            <label>100%</label><br><br><br>
+        </section>
+        </div>
+        <div>
+        <span>5. What are some programming languages you're interested in learning?</span><br><br>
+        <section class="answers">
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="Html">
+        <label for="Html">HTML</label><br>
+        <input type="checkbox" id="Css">
+        <label for="Css">CSS</label><br>
+        <input type="checkbox" id="Others">
+        <label for="Others">Others (Please specify):</label><br><br>
+        <input class="tb" type="text" required placeholder="Eg.: Javascript, Java" size="30" minlength="4">
+        </section>
+        </div>
+
+        <hr class="hr">
         
     </form>
-    <fieldset>
 
-    </fieldset>
+    </div>
+    
 </body>
 </html>
