@@ -14,7 +14,7 @@ body {
 
 .division {
     float: left;
-    width: 50%;
+    width: 45%;
 }
 
 .header {
@@ -31,7 +31,6 @@ body {
 }
 
 .form {
-    width:100%;
     padding-top: 3.5vw;
     padding-left: 2.5vw;
     padding-bottom: 3.5vw;
