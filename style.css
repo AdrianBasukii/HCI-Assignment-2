@@ -10,7 +10,7 @@ body {
 
 .bg {
     background-color: rgba(54,65,86,0.75);
-    height: 100%;
+    
 }
 
 .division {
@@ -20,8 +20,9 @@ body {
 }
 
 .header {
+
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 3.5vw;
+    font-size: 72px;
     letter-spacing: 0.5vw;
     text-align: center;
     color: white;
