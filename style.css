@@ -1,18 +1,20 @@
 html {
     box-sizing: border-box;
-    font-family: 'montserrat', 'sans-serif';
     color:white;
 }
 body {
     margin: 0;
-    background-image: url(https://cdn.discordapp.com/attachments/845525310221189151/1156196964673785907/Untitled-1.png?ex=651417d5&is=6512c655&hm=43658c4e4616339350062e3287f322377cfc0e4c6a5e8b30198928a74cec754f&);
+    background-image: url(https://penntoday.upenn.edu/sites/default/files/2021-08/computer-science-career.jpg);
+    backdrop-filter: blur(2px);
   }
 
-.hr {
-    width: 95%
+.bg {
+    background-color: rgba(54,65,86,0.75);
+    height: 100%;
 }
 
 .division {
+    padding-top: 3vw;
     float: left;
     width: 45%;
 }
@@ -23,14 +25,14 @@ body {
     letter-spacing: 0.5vw;
     text-align: center;
     color: white;
-    background-color: rgba(54,65,86,0.85);
     display: flex;
     justify-content: center;
     padding-bottom: 6vw;
-    border-bottom: 7.5px double #D66853;
 }
 
 .form {
+    width:90%;
+    margin:auto;
     padding-top: 3.5vw;
     padding-left: 2.5vw;
     padding-bottom: 3.5vw;
@@ -39,7 +41,7 @@ body {
     font-size: 1.5vw;
     color: white;
     background-color: #212D40;
-    
+    border: 7.5px double #D66853;
 }
 
 .answers {
@@ -50,4 +52,35 @@ body {
 .signup {
     display:flex;
     justify-content: center;
+}
+
+table {
+    
+    margin: auto;
+}
+
+legend {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4.5vw;
+}
+
+.form2 {
+    font-size: 2.5vw;
+}
+
+.submit {
+    background-color: #212540;
+    border-radius:5px;
+    font-size: 3vw;
+    color:white;
+    margin-left: 40%;
+    margin-top: 3vw;
+    padding: 2vw 3vw;
+    animation-timing-function: ease;
+}
+
+.submit:hover {
+    background-color: #1a1e33;
+    transform: translateY(-3px);
+    cursor: pointer;
 }

@@ -8,13 +8,19 @@
     <title>HCI ASSIGNMENT-02</title>
 </head>
 <body>
+    <div class="bg">
     <div class="header">
     <h1>Computer Science Survey</h1>
     </div>
     
     <div class="form">
-        
+
+    <table>    
     <form>
+        <tr>
+        <td colspan="2">
+        <fieldset>
+        <legend>Survey</legend>
         <div class="division">
         <span>1. What is your year of education?</span><br><br>
         <section class="answers">
@@ -60,7 +66,6 @@
             <label>100%</label><br><br><br>
         </section>
         </div>
-
         <div class="division">
         <span>5. What are some programming languages you're interested in learning?</span><br><br>
         <section class="answers">
@@ -97,19 +102,49 @@
             <input type="radio" name="radio1" id="no1" required>
             <label for="no1" >No</label><br>
         </section>
-        </div>
-        <br><br><br>
-        
-        <hr class="hr">
-
-        <h1 class="signup">Please complete your details</h1>
-        <table>
-
-        </table>
-        
-    </form>
-
-    </div>
+        </fieldset>
+        </td>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Complete Details</legend>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" placeholder="Ida Bagus Kerthyayana"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placehoder="imanuaba@XYZ.com"><br><br>
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" id="dob"><br><br>
+                    <label>Phone Number</label><br>
+                    <input type="number" id="number"><br>
     
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Extra</legend>
+                    <span>If you have any additional comments, feel free to write them down in the textbox below</span><br><br>
+                    <textarea style="height:13.5vw; width:27vw;">Enter text here...</textarea>
+                </fieldset>
+            </td>
+        </tr>
+    </tr>
+        </div>
+
+        
+            
+        
+        <tr>
+            <td colspan="2">
+        <input type="submit" class="submit">
+            </td>
+        </tr>
+    </form>
+    </table>
+    </div>
+    <div>
+        <br>
+    </div>
+    </div>
 </body>
 </html>
+
